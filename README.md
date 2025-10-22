@@ -48,12 +48,15 @@ https://github.com/tanujav-alt/Frontend_Payment_Management.git
 
 3. npm install vue-router@4
 
-4. npm run dev (To run the server)
+4. npm install --save-dev vite
+(if dev is not installed)
 
-5. If Jest or Vue Test Utils is not installed properly:
+5. npm run dev (To run the server)
+
+6. If Jest or Vue Test Utils is not installed properly:
 npm install --save-dev jest @vue/test-utils
 OR
 npm install --save-dev @vue/vue3-jest
 
-6. npx jest src/test/unit/PaymentForm.logic.test.js --config=jest.jsconfig.json
+7. npx jest src/test/unit/PaymentForm.logic.test.js --config=jest.jsconfig.json
 To run the test files, change the file names accordingly
